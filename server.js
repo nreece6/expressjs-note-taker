@@ -8,13 +8,14 @@ const PORT = 3001
 const app = express()
 
 //Middleware
-app.use(express.json())
-app.use(express.urlencoded({ extended: true}))
 
+app.use(express.urlencoded({ extended: true}))
+app.use(express.json())
+app.use(express.static('public'))
 app.use('/', html_routes)
 app.use('/api', api_routes)
 
-app.use(express.static('public'))
+
 
 app.listen(PORT, () => {
     console.log(`Listening on http://localhost:${PORT}`)
