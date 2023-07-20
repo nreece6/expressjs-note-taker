@@ -35,12 +35,12 @@ Once you have the repo location open in your terminal, run the program with
 node server.js
  ``` 
 
- Or view a deployed application at 
+ Or view a deployed application at https://afternoon-fortress-88111-b283180edf86.herokuapp.com/
 
 
 ## Usage
 
-You can view a deployed application here (deployed link here). In order to have a personal application, please clone to repo and run locally.
+You can view a deployed application here https://afternoon-fortress-88111-b283180edf86.herokuapp.com/. In order to have a personal application, please clone to repo and run locally.
 
 Once you have a running application, navigate to the "GET STARTED" button. This will take you to the notes page. On the note page, you can add new note titles and text. Click the Save Icon to save a new note. You can delete the note by pressing the trash icon next to the note on the left side of the screen. The test note does not have a unique ID and thus cannot be deleted. All user entered notes can be deleted.
 
